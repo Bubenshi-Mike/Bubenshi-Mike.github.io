@@ -104,8 +104,8 @@ nav ul li a:hover::after{
     height: calc(80vh); 
 }
 .site-blocks h1 {
-    font-size: 8rem;
-    font-weight: 900;
+    font-size: 5rem;
+    font-weight: 600;
     line-height: 1;
  }
 @media (max-width: 991.98px) {
