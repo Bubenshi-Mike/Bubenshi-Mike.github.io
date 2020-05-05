@@ -6,15 +6,61 @@ body{
     font-weight: 300;
     margin: 0;
 }
+
+/*header */
+  .header-area .header-top_area {
+    padding: 12px 0;
+    background: #fff;
+  }
+  @media (max-width: 767px) {
+    .header-area .header-top_area .social_media_links {
+       text-align: center;
+     }
+   }
+   .header-area .header-top_area .social_media_links a {
+    font-size: 20px;
+    margin-right: 12px;
+  }
+  .header-area .header-top_area .social_media_links a:hover {
+    color: #28AE60;
+  }
+  .header-area .header-top_area .short_contact_list {
+    text-align: right;
+  }
+  @media (max-width: 767px) {
+    .header-area .header-top_area .short_contact_list {
+      text-align: center;
+    }
+  }
+  .header-area .header-top_area .short_contact_list ul li {
+    display: inline-block;
+  }
+  .header-area .header-top_area .short_contact_list ul li a {
+    font-size: 16px;
+    color: #008b8b;
+    margin-left: 50px;
+  }
+  @media (max-width: 767px) {
+    .header-area .header-top_area .short_contact_list ul li a {
+      margin-left: 0;
+      margin: 0 5px;
+    }
+  }
+  .header-area .header-top_area .short_contact_list ul li a i {
+    color: #28AE60;
+    margin-right: 7px;
+  }
+     
+
+  /* sections*/
 section{
     background: var(--color);
-    height: 100vh;
 }
 nav{
     padding: 25px;
     position: sticky;
     top: 0;
-    background-color: #09162a;
+    background-color: transparent;
     display: grid;
     gap: 30%;
     grid-template-columns: 25% auto;
@@ -29,7 +75,7 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #008b8b;
     transition: opacity 200ms ease-in-out;
     overflow: hidden;
 }
@@ -55,7 +101,7 @@ nav ul li a:hover::after{
 .heading span{
     font-weight: 500;
     font-size: 25px;
-    color: #ffffff;
+    color: #008b8b;
 }
 
 /*======================Home section======================
@@ -190,3 +236,206 @@ nav ul li a:hover::after{
   top: -6px;
   text-transform: uppercase; 
 }
+/*============================ About Me ======================================*/
+.me{
+    padding-bottom: 100px;
+}
+.image {
+    height: 85%;
+    border-radius: 15%;
+}
+.about {
+    text-align: center;
+    color: #008b8b;
+}
+/*download Button*/
+.download {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+    border-radius: 3px;
+    position: relative;
+    padding-right: 30px;
+    border: none;
+    background-color: #008b8b;
+    color: #fff;
+    display: block;
+    margin: 5px auto;
+    height: 40px;
+    width: 162px;
+}
+
+.download:hover {
+    background-color: #09162a;
+}
+
+.download:hover i {
+    transform: rotate(10deg);
+}
+
+.download i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.download.bounce-in {
+    background-color: rgb(50, 130, 149);
+    border: none;
+    color: #fff;
+    padding-right: 6px;
+    animation: bounce-in 0.4s;
+}
+/*============================ Experiences ================================*/
+.sect{
+    color: #008b8b;
+    padding-top: 30px;
+}
+.card-content {
+    padding:15px;
+    text-align: center;
+  }
+  .card-title {
+    margin-top:0px;
+    font-weight: 700;
+    font-size: 1.65em;
+  }
+  .card-title a {
+    color: #000;
+    text-decoration: none !important;
+  }
+  .card-read-more {
+    border-top: 1px solid #D4D4D4;
+  }
+  .card-read-more a {
+    text-decoration: none !important;
+    padding:10px;
+    font-weight:600;
+    text-transform: uppercase
+  }
+/*============================ Contact Form ===============================*/
+.contact_form_quote {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+.contact_form_quote .form_wrap {
+    margin-bottom: 30px;
+}
+.contact_form_quote .form_wrap {
+    margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+    .contact_form_quote .form_wrap h3 {
+        font-size: 38px;
+    }
+}
+  
+.contact_form_quote .form_wrap form input, .contact_form_quote .form_wrap form textarea {
+    height: 36px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.contact_form_quote .form_wrap form input::placeholder, .contact_form_quote .form_wrap form textarea::placeholder {
+    color: #727272;
+    font-weight: 300;
+    font-size: 15px;
+}
+.contact_form_quote .form_wrap form textarea {
+    height: 40px !important;
+    resize: none;
+    margin-top: 70px;
+}
+.contact_form_quote .form_wrap form button {
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+}
+.contact_form_quote .contact_thumb {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.contact_form_quote .contact_thumb img {
+    width: 100%;
+}
+img {
+    height: 75%;
+    width: 100%;
+}
+/* IDEA: CONTACT US */
+#sect {
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+  #sect {
+    background: #fff;
+  }
+  .contac {
+    color: rgb(0,191,255);
+  }
+  #contac {
+    color: rgb(0,191,255);
+  }
+ p #name{
+      color: maroon;
+  }
+  .form-control {
+    background: transparent;
+  }
+  .details {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+  }
+  .detail {
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    color: #fff;
+    background: #09162a;
+  }
+  #icona {
+    margin-right: 100px;
+    padding-bottom:0px;
+  }
+  #contaspan {
+    color: rgb(0,191,255);
+    font-size: 20px;
+    font-weight: bold;
+  }
+.pt-3{
+    padding-top: 3px;
+}
+.md-form{
+    color: rgb(0,191,255);
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+#facebook{
+    color: darkblue;
+  }
+  #whatsapp {
+    color: green;
+  }
+  #google {
+    color: red;
+  }
+  #linkedin {
+    color: rgb(0,191,255);
+  }
+  #
+  #call{
+      color: #09162a;
+  }
