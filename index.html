@@ -1,61 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubenshi Mike</title>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Termites Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/all.min.css">
-</head>
-<body>
-  <header>
-    <div class="header-area ">
-      <div class="header-top_area d-none d-lg-block">
-          <div class="container">
-              <div class="row">
-                  <div class="col-xl-6 col-md-6 ">
-                      <div class="social_media_links">
-                          <a href="#">
-                              <i class="fab fa-linkedin" id="linkedin"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-facebook" id="facebook"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-google-plus" id="google"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-twitter" id="linkedin"></i>
-                          </a>
-                          <a>
-                            <i class="fab fa-whatsapp" id="whatsapp"></i>
-                          </a>                      
+	  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/preloadermain.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
+		<link rel="stylesheet" href="css/nouislider.min.css">
+  </head>
+  <body>
+<!-- IDEA: Preloader -->
+		<div id="loader-wrapper">
+				<div id="loader"></div>
+				<div class="loader-section section-left"></div>
+				<div class="loader-section section-right"></div>
+		</div>
+<!-- IDEA: Preloader -->
+<!-- IDEA: header start-->
+    <header>
+        <div class="header-area ">
+          <div class="header-top_area d-none d-lg-block">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xl-6 col-md-6 ">
+                          <div class="social_media_links">
+                            <a class="fb-ic">
+                              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" id="icon"> </i>
+                            </a>
+                            <a class="tw-ic">
+                              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" id="icon"> </i>
+                            </a>
+                            <a class="gplus-ic">
+                              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x" id="icon"> </i>
+                            </a>
+                            <a class="li-ic">
+                              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" id="icon"> </i>
+                            </a>
+                              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" id="icon"> </i>
+                            </a>
+                            <a class="pin-ic">
+                              <i class="fab fa-pinterest fa-lg white-text fa-2x" id="icon"> </i>
+                            </a>
+                          </div>
                       </div>
-                  </div>
-                  <div class="col-xl-6 col-md-6">
-                      <div class="short_contact_list">
-                          <ul>
-                              <li><a href="#"> <i class="fas fa-envelope" id="call"></i> mikebubenshi@gmail.com</a></li>
-                              <li><a href="#"> <i class="fas fa-phone" id="call"></i> +260-971-646-698</a></li>
-                          </ul>
+                      <div class="col-xl-6 col-md-6">
+                          <div class="short_contact_list">
+                              <ul>
+                                  <li><a href="#"> <i class="fas fa-envelope fa-lg white-text mr-2" id="icon"></i>  mikebubenshi@gmail.com</a></li>
+                                  <li><a href="#"> <i class="fas fa-phone fa-lg white-text mr-3" id="icon"></i>  +260-971-646698</a></li>
+                              </ul>
+                          </div>
                       </div>
                   </div>
               </div>
           </div>
-      </div>
-  
-  </header>
-    <div class="container-fluid">
+      </header>
+<!-- IDEA: header finished -->
+
+<!-- IDEA: navigation bar starts-->
+      <div class="container">
         <nav>
             <div class="heading">
                 <span>Bubenshi Mike</span>
             </div>
-    
+
             <ul>
                 <li>
                     <a href="#home">Home</a>
@@ -77,9 +91,9 @@
                 </li>
             </ul>
         </nav>
-    </div>
+      </div>
 
-    <main>
+      <main>
         <section id="home">
             <div class="site-blocks">
                 <div class="img-wrap">
@@ -113,256 +127,264 @@
             </div>
         </section>
 
-        <section id="about">
-          <div class="container me">
-            <!-- Portfolio Item Heading -->
-            <h1 class="my-5 about"> About Me</h1>
-          
-              <!-- Portfolio Item Row -->
-              <div class="row">
-                <div class="col-md-6">
-                  <p>I am an Enthusiastic Engineer, Robotics designer who aspires greater heights every day.<br> A digital Marketeer who do business transactions by developing sites and blogs.<br> I am determined to do what I like best.</p>
-                  <ul>
-                    <li> A trained and certified Computer Engineer</li>
-                    <li> Robitics Specialistic</li>
-                    <li> Digital Marketeer</li>
-                  </ul>
-                  <div>
-                    <button class="download" onClick="window.location='https://github.com/Bubenshi-Mike/'; return false;">
-                      <span class="text-center">Download CV</span>
-                      <i class="fas fa-paper-plane"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <img src="images/_+2psd.jpg" class="img-fluid image" alt="Image">
-                </div>
-              </div>
-            </div>
-        </section>
-    
-        <section id="skills">
-          <div class="container">
-            <h2 class="h1-responsive contac font-weight-bold text-center my-5">My Skills</h2>
-            <br>
-            <br>
-            <br>
-            <h2>TO BE UPDATED SOON</h2>
-          </div>
-        </section>
-        
-<!-- ============================ Education Background and Experiences =========================-->
-        <section id="experiences">
-          <div class="container">
-          <h2 class="h1-responsive contac font-weight-bold text-center my-5">My Experiences</h2>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Education</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Education</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Work experiences</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-center mb-5">
-              <div class="col-md-7 text-center">
-                <h3 class="text-center sect">Featured Projects</h3>
-                <p class="mb-5 lead">I have worked on various Projects and the following are some of them: </p>
-              </div>
-            </div>
-            <div class="content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-4">
-                      <div class="card">
-                          <a class="img-card" href="#">
-                          <img src="images/smart water.jpg" />
-                        </a>
-                          <div class="card-content">
-                              <h4 class="card-title">
-                                  <a href="#"> Smart Domestic Watering System
-                                </a>
+<!-- IDEA: navigation bar ends -->
+<!-- IDEA: about me starts-->
+          <section id="about">
+            <div class="site-section pb-0">
+              <div class="block-2 pb-0 mb-0">
+                <div class="container">
+                  <h2 class="h1-responsive about contac font-weight-bold text-center my-5">About Me</h2>
+                  <div class="row">
+                    <div class="col-lg-6 mb-0 mb-lg-0">
+                        <img src="images/Termites.jpg" alt="mike" class="img-fluid img-overlap">
+                      </div>
+                      <div class="col-lg-5 ml-auto hire">
+                          <p>I am an Enthusiastic Engineer, Robotics designer who aspires greater heights every day.<br> A digital Marketeer who do business transactions by developing sites and blogs.<br> I am determined to do what I like best.</p>
+                          <ul>
+                            <li> A trained and certified Computer Engineer</li>
+                            <li> Robitics Specialistic</li>
+                            <li> Digital Marketeer</li>
+                          </ul>
+                          <div class="justify-content-center">
+                            <button class="download" onClick="window.location='https://github.com/Bubenshi-Mike/'; return false;">
+                              <span class="text-center">Download CV</span>
+                              <i class="fas fa-paper-plane"></i>
+                            </button>
+                          </div><br>
+                        <h3 class="section-subtitle">Why Hire Me?</h3>
+                        <h2 class="section-title mb-4">I'm Innovative with <strong>4 years</strong> in Industry</h2>
+                        <p id="texts">A highly <strong>Trained, qualified</strong> and <strong>Skilled </strong>Expert.<q>You being here will never be in vain.</q></p>
+                        <div class="row my-5">
+                          <div class="col-lg-12 d-flex align-items-center mb-4">
+                            <span class="line-height-0 display-4 mr-4 text-primary"></span>
+                            <div>
+                              <h4 class="m-0 h5" id="fe">
+                                <i class="fas fa-microchip fa-lg" id="fe" aria-hidden="true"></i>I use Advanced Technology
                               </h4>
-                              <p class="">
-                                An Automatic Watering System that is controlled by Moisture Sensors and Solenoid Va...
-                              </p>
-                          </div>
-                          <div class="card-read-more">
-                              <a href="#" class="btn btn-link btn-block">
-                                  Read More
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                      <div class="card">
-                          <a class="">
-                          <img src="images/trafficsignrecognition.webp" />
-                        </a>
-                          <div class="card-content">
-                              <h4 class="card-title">
-                                  <a href=""> Traffic Sign Recognition System
-                                </a>
-                              </h4>
-                              <p class="">
-                                A Traffic Sign Recognition that recognize and classify Traffic Signs according t...
-                              </p>
-                          </div>
-                          <div class="card-read-more">
-                              <a href="" class="btn btn-link btn-block">
-                                  Read More
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                      <div class="card">
-                          <a class="img-card" href="">
-                          <img src="images/Portifolio.PNG"/>
-                        </a>
-                          <div class="card-content">
-                              <h4 class="card-title">
-                                  <a href=""> Bubenshi Mike Portifolio
-                                </a>
-                              </h4>
-                              <p class="">
-                                An Online Webisite Based portifolio describing my qualification and Capabilities. It is one of my first proj...
-                              </p>
-                          </div>
-                          <div class="card-read-more">
-                              <a href="" class="btn btn-link btn-block">
-                                  Read More
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-  <!-- Portifolio-->
-        <section id="portfolio">
-          <h2 class="h1-responsive contac font-weight-bold text-center my-5">Portifolio</h2>
-          <!--p class="text-center w-responsive mx-auto mb-5" id="name">Bubenshi Mike</p-->
-          <br>
-            <br>
-            <br>
-            <h2>TO BE UPDATED SOON</h2>
-          </div>
-          <div class="row details">
-            <div class="col-md-6 mb-md-0 mb-5">
-                <div class="row">
-                 
-                </div>
-            </div>
-            <div class="col-md-3 text-center detail">
-            </div>
-          </div>
-        </section>
-
-        <section class="my-5" id="contact">
-                <h2 class="h1-responsive contac font-weight-bold text-center my-5">Contact</h2>
-                <!--p class="text-center w-responsive mx-auto mb-5" id="name">Bubenshi Mike</p-->
-                <div class="row details">
-                  <div class="col-md-6 mb-md-0 mb-5">
-                    <form>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="md-form mb-0">
-                            <label for="contact-name" class="" id="txtt">Full Name</label>
-                            <input type="text" id="contact-name" class="form-control" placeholder="Enter Full Name">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                              <label for="contact-email" class="" id="txtt">Email Address</label>
-                              <input type="text" id="contact-email" class="form-control" placeholder="Enter Email Address">
+                              <p id="text">I'm capable of providing Mordern advanced Technology on the market suitable for your Projects.</p>
                             </div>
                           </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="md-form">
-                            <label for="contact-message" id="txtt">Your message</label>
-                            <textarea id="contact-message" class="form-control md-textarea" rows="3" placeholder="Leave your message"></textarea>
+                          <div class="col-lg-12 d-flex align-items-center mb-4">
+                            <span class="line-height-0 display-4 mr-4 text-primary"></span>
+                            <div>
+                              <h4 class="m-0 h5" id="fey">
+                                <i class="fab fa-sketch fa-lg" id="fey"></i> I provide Excellent Designs
+                               </h4>
+                              <p id="text">I can design prototypes that are Excellent specifically to suit your Projects.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 d-flex align-items-center mb-4">
+                            <span class="line-height-0 display-4 mr-4 text-primary"></span>
+                            <div>
+                              <h4 class="m-0 h5" id="few">
+                                <i class="far fa-thumbs-up fa-lg" id="few"></i> Affordability
+                               </h4>
+                              <p id="text">The charges are affordable to enable you meet the conditions and make the work done.</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </form>
-                    <div class="text-center text-md-left pt-3">
-                        <button class="btn btn-info my-4 btn-block" type="submit">Send</button>
                     </div>
-                    <!-- Social register -->
-                    <div class="text-center text-md-center">
-                        <ul class="list-unstyled list-inline">
-                          <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                              <i class="fab fa-facebook-f" id="facebook"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                              <i class="fab fa-twitter" id="linkedin"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                              <i class="fab fa-google-plus-g" id="google"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                              <i class="fab fa-linkedin-in" id="linkedin"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                  </div>
-                  <div class="col-md-3 text-center detail">
-                    <ul class="list-unstyled mb-0">
-                      <li>
-                        <i class="fas fa-home fa-2x blue-text" id="contac"></i>
-                        <p class="para"> Mindolo North, Kitwe, Zambia</p>
-                      </li>
-                      <li>
-                        <i class="fas fa-phone fa-2x mt-4 blue-text" id="contac"></i>
-                        <p class="para">+ 260 971 646 698</p>
-                      </li>
-                      <li>
-                        <i class="fas fa-envelope fa-2x mt-4 blue-text" id="contac"></i>
-                        <p class="mb-0 para">mikebubenshi@gmail.com</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </section>
+<!-- IDEA: about me ends-->
+
+<!-- IDEA: skills starts-->
+            <section class="achievements" id="skills" data-stellar-background-ratio="0.3">
+                <div class="container">
+                    <div class="titt wow fadeInUp">
+                        <h2>MY Skills</h2>
+                        <h4>As<strong> Bubenshi</strong> I've proudly achieved the following;</h4>
+                    </div>
+                    <div class="achieve row">
+                        <div class="col-md-3 col-sm-6 p0 completed">
+                            <i class="fas fa-user-graduate fa-lg" aria-hidden="true"></i>
+                            <span class="counter">2020</span>
+                            <h6>Computer Engineer</h6>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p0 completed">
+                            <i class="fas fa-microchip fa-lg" aria-hidden="true"></i>
+                            <span class="counter">4</span>
+                            <h6>PROJECTS COMPLETED</h6>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p0 completed">
+                            <i class="fas fa-user-tie fa-lg" aria-hidden="true"></i>
+                            <span class="counter">1</span>
+                            <h6>SNR NETWORK ENGINEER</h6>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p0 completed">
+                            <i class="fas fa-trophy fa-lg" aria-hidden="true"></i>
+                            <span class="counter">3</span>
+                            <h6>AWARDS WON</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- IDEA: skills ends -->
+<!-- IDEA: education and experiences starts-->
+        <section class="my-5" id="experiences">
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="menu-content pb-60 col-lg-10">
+                <div class="title text-center">
+                  <h2 class="h1-responsive contac font-weight-bold text-center mb-10 my-5">Experience</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-3 course-left">
+                <div class="single-course">
+                  <span class="lnr lnr-rocket"></span>
+                  <a href="#"><h4 class="h4-text">Mununga Primary School</h4></a>
+                  <p>2003 to 2009</p>
+                  <p>Primary Education</p>
+                </div>
+                <div class="single-course">
+                  <span class="lnr lnr-cog"></span>
+                  <a href="#"><h4 class="h4-text">Mungwi Technical High School</h4></a>
+                  <p>From 2012 to 2014.</p>
+                  <p>
+                    GCE.Senior Secondary School Certificate
+                  </p>
+                </div>
+                <div class="single-course">
+                  <span class="lnr lnr-cog"></span>
+                  <a href="#"><h4 class="h4-text">Mununga Basic School</h4></a>
+                  <p>From 2011 to 2012.</p>
+                  <p>
+                    GCE.Senior Junior Secondary School Certificate
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 course-middle">
+                <img class="img-fluid mx-auto d-block" height="75%" width="75%" src="images/termite.jpg" alt="">
+              </div>
+              <div class="col-lg-3 course-right">
+                <div class="single-course">
+                  <span class="lnr lnr-apartment"></span>
+                  <a href="#"><h4 class="h4-text">The CopperBelt University</h4></a>
+                  <p>From 2016 to 2020</p>
+                  <p>BSc.Computer Engineering</p>
+                </div>
+                <div class="single-course">
+                  <span class="lnr lnr-phone"></span>
+                  <a href="#"><h4 class="h4-text">DUPLEXO</h4></a>
+                  <p>From 2020 to date.</p>
+                  <p>DUPLEXO CEO</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-      <!-- CONTACT US END -->
-    </main>
+<!-- IDEA: education and experiences ends -->
+
+<!-- IDEA: Contact section starts-->
+        <section class="my-5" id="contact">
+          <h2 class="h1-responsive contac font-weight-bold text-center my-5">Contact</h2>
+          <div class="row details">
+            <div class="col-md-6 mb-md-0 mb-5">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <label for="contact-name" class="" id="txtt">Full Name</label>
+                      <input type="text" id="contact-name" class="form-control" placeholder="Enter Full Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <label for="contact-email" class="" id="txtt">Email Address</label>
+                      <input type="text" id="contact-email" class="form-control" placeholder="Enter Email Address">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <label for="contact-Subject" class="" id="txtt">Subject</label>
+                      <input type="text" id="contact-Subject" class="form-control" placeholder="Subject">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form">
+                      <label for="contact-message" id="txtt">Your message</label>
+                      <textarea id="contact-message" class="form-control md-textarea" rows="3" placeholder="Leave your message"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="text-center text-md-left pt-3">
+                  <button class="btn btn-info my-4 btn-block" id="btn" type="submit">Send</button>
+              </div>
+            </div>
+            <div class="col-md-3 text-center detail">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <i class="fas fa-home fa-2x blue-text" id="contac"></i>
+                  <p class="para"> Kaminda Drive, Kitwe, Zambia</p>
+                </li>
+                <li>
+                  <i class="fas fa-phone fa-2x mt-4 blue-text" id="contac"></i>
+                  <p class="para">+ 260 971 646 698</p>
+                </li>
+                <li>
+                  <i class="fas fa-envelope fa-2x mt-4 blue-text" id="contac"></i>
+                  <p class="mb-0 para">mikebubenshi@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+<!-- CONTACT US END -->
+<!-- IDEA: Contact section ends -->
+
+<!-- IDEA: footer start -->
+    <footer class="page-footer font-small cyan darken-3 sticky-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="gplus-ic">
+                <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="li-ic">
+                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="pin-ic">
+                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="#" id="footer-text"> Bubenshi Mike</a>
+        <a id="footer-text">|BSc. Computer Engineer</a>
+        <a href="#" id="footer-text">|Duplexo.</a>
+      </div>
+    </footer>
+<!-- IDEA: footer ends -->
     <script src="js/style.js" charset="utf-8"></script>
-    <script src="js/bootstrap.min.js" charset="utf-8"></script>
-    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/fontawesome.js"></script>
-    <script src="js/all.min.js"></script>
-</body>
+    <script src="js/all.min.js" charset="utf-8"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+  	<script src="js/owl.carousel.min.js"></script>
+  	<script src="js/popper.min.js"></script>
+  	<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/style.js" charset="utf-8"></script>
+  </body>
 </html>
